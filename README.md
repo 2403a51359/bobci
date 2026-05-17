@@ -1,18 +1,12 @@
-<div align="center">
-
 # 🤖 BobCI
+
 ### Autonomous AI Engineering Command Center
 
 **AI-Powered Pull Request Intelligence System**
 
-[![IBM Bob](https://img.shields.io/badge/Powered%20by-IBM%20Bob-blue?style=for-the-badge&logo=ibm)](https://ibm.com)
-[![watsonx.ai](https://img.shields.io/badge/watsonx.ai-Granite-purple?style=for-the-badge)](https://www.ibm.com/watsonx)
-[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
+[![IBM Bob](https://img.shields.io/badge/Powered%20by-IBM%20Bob-blue?style=for-the-badge&logo=ibm)](https://ibm.com) [![watsonx.ai](https://img.shields.io/badge/watsonx.ai-Granite-purple?style=for-the-badge)](https://www.ibm.com/watsonx) [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org) [![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
 
-[🚀 Live Demo](#demo) • [📖 Documentation](#documentation) • [🎥 Video](#video) • [🏆 Hackathon](#hackathon)
-
-</div>
+[📖 Documentation](#documentation) • [🏆 Hackathon](#ibm-bob-hackathon)
 
 ---
 
@@ -21,6 +15,7 @@
 BobCI is not just another code review tool. It's an **enterprise-grade AI engineering platform** that transforms how teams ship code.
 
 Think of it as having a **senior engineering team** that:
+
 - 🔍 Reviews every PR in seconds
 - 🎯 Predicts what could break before deployment
 - 🛡️ Catches security vulnerabilities instantly
@@ -35,6 +30,7 @@ Think of it as having a **senior engineering team** that:
 ## ✨ Elite Features
 
 ### 🎯 Merge Safety Score
+
 **AI-powered risk assessment with stunning visualizations**
 
 - Animated 0-100 safety score with real-time calculation
@@ -44,6 +40,7 @@ Think of it as having a **senior engineering team** that:
 - Framer Motion animations throughout
 
 ### 🌐 Impact Radius Visualization
+
 **Interactive dependency graph showing blast radius**
 
 - React Flow powered interactive graph
@@ -54,6 +51,7 @@ Think of it as having a **senior engineering team** that:
 - Minimap navigation
 
 ### ⚠️ "What Could Break?" Predictions
+
 **Predictive failure analysis before deployment**
 
 - AI-generated failure scenarios
@@ -64,6 +62,7 @@ Think of it as having a **senior engineering team** that:
 - Historical pattern analysis
 
 ### 🔥 Risk Heatmap
+
 **File-level vulnerability visualization**
 
 - Color-coded risk distribution
@@ -73,6 +72,7 @@ Think of it as having a **senior engineering team** that:
 - Summary statistics
 
 ### 💬 GitHub Comment Simulation
+
 **Preview AI-generated PR comments**
 
 - Realistic GitHub UI
@@ -82,6 +82,7 @@ Think of it as having a **senior engineering team** that:
 - Confidence scores
 
 ### 🤖 AI Analysis Timeline
+
 **Multi-agent orchestration visualization**
 
 - 7-step analysis pipeline
@@ -91,6 +92,7 @@ Think of it as having a **senior engineering team** that:
 - Real-time completion tracking
 
 ### 🎓 Junior Developer Mode
+
 **Educational explanations for every change**
 
 - Simple language explanations
@@ -190,6 +192,7 @@ npm run dev
 ### Environment Variables
 
 **Backend (.env)**
+
 ```env
 # GitHub Integration
 GITHUB_WEBHOOK_SECRET=your_webhook_secret
@@ -215,6 +218,7 @@ FRONTEND_URL=http://localhost:3000
 ## 📊 Tech Stack
 
 ### Backend
+
 - **FastAPI** - Modern Python web framework
 - **SQLAlchemy** - SQL toolkit and ORM
 - **SQLite** - Lightweight database
@@ -223,6 +227,7 @@ FRONTEND_URL=http://localhost:3000
 - **GitHub API** - Repository integration
 
 ### Frontend
+
 - **Next.js 14** - React framework with SSR
 - **Tailwind CSS** - Utility-first CSS
 - **Framer Motion** - Advanced animations
@@ -232,6 +237,7 @@ FRONTEND_URL=http://localhost:3000
 - **Axios** - HTTP client
 
 ### AI/ML
+
 - **IBM Bob** - Repository understanding & contextual reasoning
 - **watsonx.ai** - Granite 13B Chat v2 model
 - **Multi-Agent System** - Specialized AI agents for different tasks
@@ -241,6 +247,7 @@ FRONTEND_URL=http://localhost:3000
 ## 🎯 Use Cases
 
 ### For Engineering Teams
+
 - ✅ Catch bugs before they reach production
 - ✅ Enforce security best practices
 - ✅ Maintain consistent code quality
@@ -248,12 +255,14 @@ FRONTEND_URL=http://localhost:3000
 - ✅ Onboard junior developers faster
 
 ### For DevOps Teams
+
 - ✅ Predict deployment failures
 - ✅ Visualize service dependencies
 - ✅ Track blast radius of changes
 - ✅ Automate compliance checks
 
 ### For Security Teams
+
 - ✅ Real-time vulnerability detection
 - ✅ Automated security reviews
 - ✅ Compliance reporting
@@ -281,44 +290,10 @@ FRONTEND_URL=http://localhost:3000
 
 ---
 
-## 📸 Screenshots
-
-### Merge Safety Score
-![Merge Safety Score](docs/screenshots/merge-safety-score.png)
-*Real-time AI-powered risk assessment with animated visualizations*
-
-### Impact Radius Visualization
-![Impact Radius](docs/screenshots/impact-radius.png)
-*Interactive dependency graph showing blast radius*
-
-### AI Analysis Timeline
-![Timeline](docs/screenshots/timeline.png)
-*Multi-agent orchestration in action*
-
-### Risk Heatmap
-![Heatmap](docs/screenshots/heatmap.png)
-*File-level vulnerability distribution*
-
----
-
-## 🎥 Demo Video
-
-[▶️ Watch the 3-minute demo](https://youtu.be/your-demo-video)
-
-**Demo Script:**
-1. Open PR on GitHub (0:00-0:30)
-2. BobCI webhook triggers (0:30-0:45)
-3. AI analysis timeline (0:45-1:15)
-4. Merge safety score reveal (1:15-1:45)
-5. Impact radius visualization (1:45-2:15)
-6. Failure predictions (2:15-2:45)
-7. GitHub comments preview (2:45-3:00)
-
----
-
 ## 🛣️ Roadmap
 
 ### Phase 1: Core Features ✅
+
 - [x] Multi-agent AI system
 - [x] Merge safety scoring
 - [x] Impact radius visualization
@@ -327,12 +302,14 @@ FRONTEND_URL=http://localhost:3000
 - [x] GitHub comment simulation
 
 ### Phase 2: Enhanced AI 🚧
+
 - [x] watsonx.ai integration
 - [ ] Custom model fine-tuning
 - [ ] Historical pattern learning
 - [ ] Team-specific recommendations
 
 ### Phase 3: Enterprise Features 📋
+
 - [ ] SAML/SSO authentication
 - [ ] Role-based access control
 - [ ] Audit logging
@@ -340,6 +317,7 @@ FRONTEND_URL=http://localhost:3000
 - [ ] Slack/Teams integration
 
 ### Phase 4: Scale 🚀
+
 - [ ] Kubernetes deployment
 - [ ] Multi-region support
 - [ ] Advanced analytics dashboard
@@ -388,17 +366,13 @@ MIT License - feel free to use this for your own projects!
 
 - 🐛 **Issues**: [GitHub Issues](https://github.com/2403a51359/bobci/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/2403a51359/bobci/discussions)
-- 🔒 **Security**: See [SECURITY.md](SECURITY.md) for reporting vulnerabilities
+- 🔒 **Security**: See [SECURITY.md](https://github.com/2403a51359/bobci/blob/main/SECURITY.md) for reporting vulnerabilities
 - 📖 **Documentation**: Check the README and inline code documentation
 
 ---
-
-<div align="center">
 
 **Built with ❤️ for the IBM Bob Hackathon**
 
 **Powered by IBM Bob + watsonx.ai**
 
-[⭐ Star us on GitHub](https://github.com/2403a51359/bobci) • [🚀 Try the Demo](https://github.com/2403a51359/bobci)
-
-</div>
+[⭐ Star us on GitHub](https://github.com/2403a51359/bobci)
