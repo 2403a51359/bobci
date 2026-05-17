@@ -49,7 +49,7 @@ logs/
 *.log
 
 # Bob sessions
-bob_sessions/*
+
 !bob_sessions/.gitkeep
 
 # Build files
