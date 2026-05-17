@@ -165,7 +165,7 @@ Think of it as having a **senior engineering team** that:
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/2403a51359/bobci.git
 cd bobci
 
 # Backend setup
@@ -386,8 +386,8 @@ MIT License - feel free to use this for your own projects!
 
 ## 📞 Support
 
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/bobci/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/bobci/discussions)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/2403a51359/bobci/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/2403a51359/bobci/discussions)
 - 🔒 **Security**: See [SECURITY.md](SECURITY.md) for reporting vulnerabilities
 - 📖 **Documentation**: Check the README and inline code documentation
 
@@ -399,6 +399,6 @@ MIT License - feel free to use this for your own projects!
 
 **Powered by IBM Bob + watsonx.ai**
 
-[⭐ Star us on GitHub](https://github.com/yourusername/bobci) • [🚀 Try the Demo](https://demo.bobci.dev)
+[⭐ Star us on GitHub](https://github.com/2403a51359/bobci) • [🚀 Try the Demo](https://github.com/2403a51359/bobci)
 
 </div>
